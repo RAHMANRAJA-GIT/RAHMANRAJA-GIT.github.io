@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Project: Sales Dashboard</title>
+    <title>RAHMAN RAJA PORTFOLIO</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -12,52 +12,61 @@
             background-color: #f4f4f4;
         }
         .container {
-            width: 100%;
             max-width: 1200px;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: #fff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: auto;
+            overflow: hidden;
+            padding: 0 2rem;
         }
-        .header {
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
             text-align: center;
-            padding: 20px 0;
         }
-        .header h1 {
+        header h1 {
             margin: 0;
         }
-        .content {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
+        .about, .projects, .contact {
+            background: #fff;
+            padding: 2rem;
+            margin: 1rem 0;
+            border-radius: 10px;
         }
-        .image-container {
+        h2 {
+            color: #333;
+        }
+        .projects .project {
+            border: 1px solid #ccc;
+            padding: 1rem;
+            margin-bottom: 1rem;
+            border-radius: 10px;
+        }
+        .project img {
             max-width: 100%;
-            margin: 20px 0;
+            border-radius: 5px;
         }
-        .image-container img {
-            width: 100%;
-            height: auto;
+        .project h3 {
+            margin: 0 0 1rem 0;
         }
-        .description {
+        footer {
+            background: #333;
+            color: #fff;
             text-align: center;
-            padding: 20px;
+            padding: 1rem 0;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <div class="header">
-            <h1>Sales Dashboard Portfolio Project</h1>
+    <header>
+        <div class="container">
+            <h1>RAHMAN RAJA Portfolio</h1>
         </div>
-        <div class="content">
-            <div class="image-container">
-                <img src="https://github.com/RAHMANRAJA-GIT/AmazonSalesDashboard/blob/main/Dashboard_Images/Capture.PNG" alt="Amazon Sales Dashboard">
-            </div>
-            <div class="description">
-                <p>This project showcases a comprehensive sales dashboard that provides insights into overall sales, sales by city, and sales by state. The dashboard is designed to be interactive and user-friendly, making it an essential tool for data-driven decision-making.</p>
-            </div>
-        </div>
-    </div>
-</body>
-</html>
+    </header>
+
+    <section class="about container">
+        <h2>About Me</h2>
+        <p>Welcome! I am Rahman, a passionate data analyst with expertise in data visualization, statistical analysis, and business intelligence. Here you can find some of my projects and get in touch with me.</p>
+    </section>
+
+    <section class="projects container">
+        <h2>Projects
